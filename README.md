@@ -27,12 +27,14 @@ The result hopefully can reduce the project churn as different developers
 modify the tooling for their favorite IDE or analysis tool of the week.
 
 In order for this to work with older versions of sbt specified in a project,
-you need to use the version of
-[sbt-extras](https://github.com/yyuu/sbt-extras "sbt-extras")
-from [yyuu](https://github.com/yyuu "yyuu")
-that restores downlods of older launcher versions.
+you need to use the updated version that contains
+[pull #68](https://github.com/paulp/sbt-extras/pull/68 "pull #68")
+from [yyuu](https://github.com/yyuu "yyuu") that
+[restores downlods](https://github.com/yyuu/sbt-extras "sbt-extras")
+of older launcher versions.
 
 This is a quick hack and not all combinations have been tested and may not be correct.
+Please submit fixes.
 
 ## Installation
 
