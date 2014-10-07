@@ -30,7 +30,7 @@ In order for this to work with older versions of sbt specified in a project,
 you need to use the updated version that contains
 [pull #68](https://github.com/paulp/sbt-extras/pull/68 "pull #68")
 from [yyuu](https://github.com/yyuu "yyuu") that
-[restores downlods](https://github.com/yyuu/sbt-extras "sbt-extras")
+[restores downloads](https://github.com/yyuu/sbt-extras "sbt-extras")
 of older launcher versions.
 
 This is a quick hack and not all combinations have been tested and may not be correct.
@@ -51,5 +51,5 @@ Do not remove tooling that is necessary for build systems...
 * Dependency graph: [sbt-dependency-graph](https://github.com/jrudolph/sbt-dependency-graph "sbt-dependency-graph")
 * Sbt release:      [sbt-release](https://github.com/sbt/sbt-release "sbt-release")
 * Sbt updates:      [sbt-updates](https://github.com/rtimush/sbt-updates "sbt-updates"):
-Note that it is possible to check for updates to plugins as well as per this [comment](https://github.com/rtimush/sbt-updates/issues/10#issuecomment-28617595 "plugin updates").
+Note that it is possible to check for updates to plugins as well as per this [comment](https://github.com/rtimush/sbt-updates/issues/10#issuecomment-28617595 "plugin updates").  With newer 0.13.1+ versions of sbt, you can type "pluginUpdates" to do this.
 
